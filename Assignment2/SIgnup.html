@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <form class="container">
+        <h2>Signup Form</h2>
+        <div class="imgcontainer">
+            <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
+                alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="username">
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="password">
+
+            <label for="psw"><b>Email</b></label>
+            <input type="password" placeholder="Enter Email" name="email" id="email">
+
+
+            <div id="myModal" class="modal">
+                
+                <div class="container modal-content">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://e7.pngegg.com/pngimages/595/505/png-clipart-computer-icons-error-closeup-miscellaneous-text-thumbnail.png"
+                            style="height: 50px;">
+                        </div>
+                        <div class="col-7">
+                            <p class="left">Something Gone Wrong</p>
+                        </div>
+                        <div class="col-2">
+                            <span class="close" onclick="clone()">&times;</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+            <!-- onclick="Mov(true)" -->
+
+            <div class="button1" style="border-radius: 25px;text-align: center;" onclick="createAccount()">Signup</div>
+
+        </div>
+
+    </form>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
